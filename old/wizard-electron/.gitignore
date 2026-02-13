@@ -1,0 +1,78 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+dist-electron
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Focus Wizard — .gitignore
+
+# ── C++ Bridge Build ────────────────────────────────
+bridge/build/
+bridge/cmake-build-*/
+bridge/.cache/
+*.o
+*.d
+*.so
+*.dylib
+*.a
+focus_bridge
+
+# ── CMake ────────────────────────────────────────────
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# ── Node / Electron App ─────────────────────────────
+app/node_modules/
+app/dist/
+app/dist-electron/
+app/release/
+release/
+app/.vite/
+*.tsbuildinfo
+
+# ── OS Files ─────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# ── IDE ──────────────────────────────────────────────
+.vscode/
+.idea/
+*.code-workspace
+
+# ── Environment / Secrets ────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ── Docker ───────────────────────────────────────────
+**/focus-wizard-frames/
+*.tar
+
+# ── Frame exchange directory ─────────────────────────
+/tmp/focus-wizard-frames/
